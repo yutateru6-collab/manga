@@ -1,0 +1,25 @@
+name: Validate skill
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate repository
+        run: python scripts/validate_skill.py .
+      - name: Smoke-test project initializer
+        run: |
+          python scripts/init_project.py /tmp/ad-manga-smoke --title "Smoke Test"
+          test -f /tmp/ad-manga-smoke/manifest.json
+          test -f /tmp/ad-manga-smoke/brief/facts.md
+          test -f /tmp/ad-manga-smoke/storyboard/copy.md
