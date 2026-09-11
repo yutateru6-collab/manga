@@ -1,5 +1,13 @@
 # ad-manga-creator
 
+## 制作前の必読順・完成条件
+
+最初に [AGENTS.md](AGENTS.md) を全文読み、続いて [SKILL.md](SKILL.md)、[画像生成プロンプト](references/image-generation-prompts.md)、今回のモードに適用される各参照規則を末尾まで読む。
+
+**全文読了 → 全要件の意味・適用範囲・実装先・検証方法を整理 → 制作へ実装 → 最終成果物で全要件を検証**を必須とする。一部だけ読んで作り始めない。「理解した」「プロンプトに書いた」だけで合格にしない。画像制作では全ページ・全コマ・全文字を確認し、違反・未確認があれば完成扱いにしない。詳しい適用条件と検証手順はAGENTS.mdに従う。
+
+2026-09-11にこの遵守手順を追加した。既存の広告・短編・文字組み・修正ルールは維持する。指示の更新は、既存画像の修正や新しい自動画像検査機能の実装を意味しない。
+
 A Japanese advertising-manga Agent Skill that combines **ad strategy**, **comic storyboarding**, **visual continuity**, **image-generation prompting**, **exact Japanese typesetting**, and **production QA**.
 
 It is designed for tasks such as:
@@ -34,6 +42,7 @@ This skill adds a third requirement: **production-safe Japanese text**. Final ad
 ## Repository layout
 
 ```text
+AGENTS.md
 SKILL.md
 references/
   angle-and-hook-system.md
