@@ -1,5 +1,9 @@
 # Image Generation Prompt Templates
 
+> **このファイルを直接参照する場合も、最初に [AGENTS.md](../AGENTS.md) と [SKILL.md](../SKILL.md) を全文読む。AGENTS.mdのゲートA・Bに従い、今回の全適用要件を理解してからプロンプト・画像を作成する。一部のテンプレートだけをコピーして他の指示を省略しない。**
+>
+> **最終納品はゲートC・Dに従う。プロンプトに書いた条件と、実際の全ページ・全コマ・全文字を照合し、違反・未確認があれば完成扱いにしない。ユーザー指定の枚数・人物・配置・変更範囲を既定プリセットより優先し、既存の正しい部分を保持する。**
+
 Prompts should be self-contained. Replace brackets with project-specific facts.
 
 ## Character reference
