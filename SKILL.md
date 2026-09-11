@@ -7,6 +7,10 @@ metadata:
 
 # Ad Manga Creator
 
+> **制作開始前に [AGENTS.md](AGENTS.md) を全文読み、ゲートA・Bを実行する。関連する全指示の意味・適用範囲・実装先・検証方法を把握するまで、ネーム・生成プロンプト・画像を作り始めない。**
+>
+> **納品前はAGENTS.mdのゲートC・Dを必ず実行する。最終成果物で全適用要件を検証し、違反・未確認があれば完成扱いにしない。画像制作では全ページ・全コマ・全文字を実物で確認する。プロンプトに書いたことを、画像で守られた証拠にしない。**
+
 Create advertising manga that works first as an ad and second as a comic.
 
 The skill combines performance-creative thinking with a comic production workflow. It does **not** assume that a pretty manga page is an effective ad, and it does **not** invent product claims, testimonials, statistics, reviews, prices, features, screenshots, awards, or customer outcomes.
